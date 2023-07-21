@@ -85,7 +85,8 @@ public class SortingPanel extends JLabel {
         window.addMouseListener(new MouseListener() {
 
             /*
-             * Click the mouse on the window to see how the array sorts
+             * Note - randomizing the array during the sort algorithm may lead
+             *        to unexpected results
              */
             @Override
             public void mouseReleased(MouseEvent e) {

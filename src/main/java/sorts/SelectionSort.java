@@ -2,11 +2,12 @@ package sorts;
 
 import application.SortingPanel;
 
-public class MergeSort implements Sortable {
-    /*
-     * For reference:
-     * https://en.wikipedia.org/wiki/Merge_sort
-     */
+/*
+ * For reference:
+ * https://en.wikipedia.org/wiki/Selection_sort
+ */
+public class SelectionSort implements Sortable {
+
     @Override
     public void sort(int[] arr, SortingPanel visualizer) {
         /*
@@ -17,6 +18,6 @@ public class MergeSort implements Sortable {
 
     @Override
     public String getSortName() {
-        return "Merge Sort";
+        return "Selection Sort";
     }
 }

@@ -15,9 +15,11 @@ public class SortingVisualizer {
 
         sortingMethods = Arrays.asList(
                 new BubbleSort(),
+                new SelectionSort(),
                 new InsertionSort(),
                 new QuickSort(),
-                new MergeSort()
+                new MergeSort(),
+                new HeapSort()
         );
 
         displayAvailableSortingMethods();

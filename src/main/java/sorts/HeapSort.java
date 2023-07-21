@@ -2,11 +2,14 @@ package sorts;
 
 import application.SortingPanel;
 
-public class MergeSort implements Sortable {
-    /*
-     * For reference:
-     * https://en.wikipedia.org/wiki/Merge_sort
-     */
+import javax.swing.*;
+
+/*
+ * For reference:
+ * https://en.wikipedia.org/wiki/Heapsort
+ */
+public class HeapSort implements Sortable {
+
     @Override
     public void sort(int[] arr, SortingPanel visualizer) {
         /*
@@ -17,6 +20,6 @@ public class MergeSort implements Sortable {
 
     @Override
     public String getSortName() {
-        return "Merge Sort";
+        return "Heap Sort";
     }
 }
